@@ -37,6 +37,7 @@ GET /my-account?id=wiener HTTP/2
 Host: 0ab1004403686283806dd5180030008f.web-security-academy.net
 Cookie: Admin=true; session=vIIAOChEuir55L4XYdm4rxRkm8QoyYkO
 ```
+***
 
 # Lab: User ID controlled by request parameter, with unpredictable user IDs
 
