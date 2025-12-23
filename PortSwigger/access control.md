@@ -47,6 +47,8 @@ We can then access the blog "The history of swigging port" to find our user carl
 
 Note: the blogs on the fake website are surprisingly fire ngl
 
+***
+
 # Lab: User ID controlled by request parameter with password disclosure
 
 I noticed the GET request while logging in : `GET /my-account?id=wiener HTTP/2` which I modified to `GET /my-account?id=administrator HTTP/2` to get the password as `e0wlouxcl26lyi5vtas8` using which I logged in and completed the lab.
