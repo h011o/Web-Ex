@@ -45,10 +45,14 @@ Logging in to the account with the given credentials gives us our API key: `p3Zv
 
 We can then access the blog "The history of swigging port" to find our user carlos at `/blogs?userId=e0c3e677-60df-4ba7-896a-bb2fb088aeba`, on modifying the previous URL with the new user ID we get the required API: `XubM92nECppkHjqRUhUA0NTic76EHZdo`
 
-Note: the blogs on the website are surprisingly fire ngl
+Note: the blogs on the fake website are surprisingly fire ngl
+
+# Lab: User ID controlled by request parameter with password disclosure
+
+I noticed the GET request while logging in : `GET /my-account?id=wiener HTTP/2` which I modified to `GET /my-account?id=administrator HTTP/2` to get the password as `e0wlouxcl26lyi5vtas8` using which I logged in and completed the lab.
 
 # Concepts Learned
 
 * Insecure Direct Object Reference
 * Horizontal and Vertical privelege escalation
-* 
+ 
