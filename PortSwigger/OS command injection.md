@@ -1,0 +1,18 @@
+# Lab: OS command injection, simple case
+
+> In this lab I was supposed to execute the `whoami` command to determine the name of the current user.
+
+* I intercepted `POST /product/stock HTTP/2` to find `productId=2&storeId=1` which I changed to `productId=whoami&storeId=whoami` to get the output as 16.
+* I then tried using `userId=whoami` but that didn't work either.
+* Finally, using `productId=whoami|1&storeId=whoami` gives us the required user.
+
+   ![Uploading image.png…]()
+
+
+***
+
+# Concepts Learned:
+
+<img width="550" height="218" alt="image" src="https://github.com/user-attachments/assets/e3cf8849-f0af-4460-8b0a-8d92dd52a87e" />
+
+***
